@@ -19,7 +19,7 @@ void input (){
     cout << endl;
     cout << "=============================================";
     cout << "==========Masukan Element Array==============";
-    cout << "=============================================";
+    cout << "=============================================" << endl;
 
     for (int i = 0; i < n; i++ ){
         cout << "Data ke-"<< (i+1) << ": ";
@@ -46,4 +46,12 @@ void insertionsort(){
         }
     }
 }
+void display()
+{
+    cout << endl;
+    cout << "\n=================";
+    cout << "\nElement Array" << endl;
+    cout << "\n=================" << endl;
+}
+
 
